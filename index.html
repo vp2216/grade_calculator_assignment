@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>grading system</h1>
+    <div class="main">
+      <div class="input-form">
+        <h3>Please enter the marks of the student:</h3>
+        <span>
+          <label for="english">English:</label>
+          <input id="english" type="number" /></span
+        ><span>
+          <label for="maths">Maths:</label>
+          <input id="maths" type="number" /></span
+        ><span>
+          <label for="physics">Physics:</label>
+          <input id="physics" type="number" /></span
+        ><span>
+          <label for="chemistry">Chemistry:</label>
+          <input id="chemistry" type="number" /></span
+        ><span>
+          <label for="computer">Computer:</label>
+          <input id="computer" type="number"
+        /></span>
+        <button id="btn" onclick="submit()">Calculate grade</button>
+        </div>
+      <div class="scores">
+        <div class="score-div">
+          <h3>Total Score:</h3>
+          <div id="total" class="display"></div>
+        </div>
+        <div class="score-div">
+          <h3>Average Score:</h3>
+          <div id="avg" class="display"></div>
+        </div>
+        <div class="score-div">
+          <h3>Grade:</h3>
+          <div id="grade" class="display"></div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
